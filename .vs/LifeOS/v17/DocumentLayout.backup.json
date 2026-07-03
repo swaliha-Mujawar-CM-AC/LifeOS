@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|c:\\users\\dell\\onedrive\\desktop\\lifeos\\lifeos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|solutionrelative:lifeos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|c:\\users\\dell\\onedrive\\desktop\\lifeos\\lifeos.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|solutionrelative:lifeos.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|c:\\users\\dell\\onedrive\\desktop\\lifeos\\lifeos.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|solutionrelative:lifeos.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|c:\\users\\dell\\onedrive\\desktop\\lifeos\\lifeos.api\\lifeos.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|solutionrelative:lifeos.api\\lifeos.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|c:\\users\\dell\\onedrive\\desktop\\lifeos\\lifeos.api\\controllers\\habitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|solutionrelative:lifeos.api\\controllers\\habitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|c:\\users\\dell\\onedrive\\desktop\\lifeos\\lifeos.api\\lifeos.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4DB5D218-A25E-4D03-8E00-ADA2830F9D65}|LifeOS.API\\LifeOS.API.csproj|solutionrelative:lifeos.api\\lifeos.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LifeOS.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LifeOS.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-02T21:49:36.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "LifeOS.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\appsettings.Development.json",
+              "RelativeToolTip": "LifeOS.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-02T21:47:21.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "LifeOS.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\appsettings.json",
+              "RelativeToolTip": "LifeOS.API\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-01T12:01:28.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LifeOS.API.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\LifeOS.API.csproj",
+              "RelativeDocumentMoniker": "LifeOS.API\\LifeOS.API.csproj",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\LifeOS.API.csproj",
+              "RelativeToolTip": "LifeOS.API\\LifeOS.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-28T06:13:41.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HabitController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\Controllers\\HabitController.cs",
+              "RelativeDocumentMoniker": "LifeOS.API\\Controllers\\HabitController.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\Controllers\\HabitController.cs",
+              "RelativeToolTip": "LifeOS.API\\Controllers\\HabitController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T11:38:58.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LifeOS.API",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\LifeOS.API.csproj",
+              "RelativeDocumentMoniker": "LifeOS.API\\LifeOS.API.csproj",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Desktop\\LifeOS\\LifeOS.API\\LifeOS.API.csproj",
+              "RelativeToolTip": "LifeOS.API\\LifeOS.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-27T11:25:50.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

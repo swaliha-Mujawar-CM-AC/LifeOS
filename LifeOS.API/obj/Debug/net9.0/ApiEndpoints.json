@@ -1,0 +1,758 @@
+[
+  {
+    "ContainingType": "LifeOS.API.Controllers.AuthController",
+    "Method": "ApproveCoach",
+    "RelativePath": "api/Auth/approve-coach/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.AuthController",
+    "Method": "AssignUser",
+    "RelativePath": "api/Auth/assign-user",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LifeOS.API.Models.DTOs.Auth.AssignUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.AuthController",
+    "Method": "GetAssignedUsers",
+    "RelativePath": "api/Auth/assigned-users/{coachId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coachId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.AuthController",
+    "Method": "ChangeRole",
+    "RelativePath": "api/Auth/change-role/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "LifeOS.API.Models.DTOs.Auth.ChangeRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.AuthController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Auth/delete-user/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.AuthController",
+    "Method": "EditUser",
+    "RelativePath": "api/Auth/edit-user/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "LifeOS.API.Models.DTOs.Auth.EditUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Auth/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LifeOS.API.Models.DTOs.Auth.ForgotPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LifeOS.API.Models.DTOs.Auth.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.AuthController",
+    "Method": "GetPendingCoaches",
+    "RelativePath": "api/Auth/pending-coaches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LifeOS.API.Models.DTOs.Auth.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.AuthController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Auth/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.DashboardController",
+    "Method": "GetDashboardSummary",
+    "RelativePath": "api/Dashboard/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.DecisionController",
+    "Method": "CreateDecision",
+    "RelativePath": "api/Decision",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "decision",
+        "Type": "LifeOS.API.Models.Decision",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.DecisionController",
+    "Method": "UpdateDecision",
+    "RelativePath": "api/Decision/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updated",
+        "Type": "LifeOS.API.Models.Decision",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.DecisionController",
+    "Method": "DeleteDecision",
+    "RelativePath": "api/Decision/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.DecisionController",
+    "Method": "GetUserDecisions",
+    "RelativePath": "api/Decision/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.ExpenseController",
+    "Method": "CreateExpense",
+    "RelativePath": "api/Expense",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expense",
+        "Type": "LifeOS.API.Models.Expense",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.ExpenseController",
+    "Method": "UpdateExpense",
+    "RelativePath": "api/Expense/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updates",
+        "Type": "LifeOS.API.Models.Expense",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.ExpenseController",
+    "Method": "DeleteExpense",
+    "RelativePath": "api/Expense/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.ExpenseController",
+    "Method": "SetBudget",
+    "RelativePath": "api/Expense/budget",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "budget",
+        "Type": "LifeOS.API.Models.Budget",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.ExpenseController",
+    "Method": "GetBudget",
+    "RelativePath": "api/Expense/budget/{userId}/{year}/{month}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.ExpenseController",
+    "Method": "GetSummary",
+    "RelativePath": "api/Expense/summary/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.ExpenseController",
+    "Method": "GetMonthlySummary",
+    "RelativePath": "api/Expense/summary/{userId}/{year}/{month}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.ExpenseController",
+    "Method": "GetUserExpenses",
+    "RelativePath": "api/Expense/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.ExpenseController",
+    "Method": "GetUserExpensesByMonth",
+    "RelativePath": "api/Expense/user/{userId}/{year}/{month}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.ExpenseController",
+    "Method": "GetUserExpensesByRange",
+    "RelativePath": "api/Expense/user/{userId}/range",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "from",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.FeedbackController",
+    "Method": "CreateFeedback",
+    "RelativePath": "api/Feedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedback",
+        "Type": "LifeOS.API.Models.CoachFeedback",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.FeedbackController",
+    "Method": "GetUserFeedback",
+    "RelativePath": "api/Feedback/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.FeedbackController",
+    "Method": "GetUserFeedbackByCategory",
+    "RelativePath": "api/Feedback/user/{userId}/category/{category}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.HabitController",
+    "Method": "CreateHabit",
+    "RelativePath": "api/Habit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "habit",
+        "Type": "LifeOS.API.Models.Habit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.HabitController",
+    "Method": "DeleteHabit",
+    "RelativePath": "api/Habit/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.HabitController",
+    "Method": "ToggleLog",
+    "RelativePath": "api/Habit/{id}/toggle-log",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.HabitController",
+    "Method": "GetLeaderboard",
+    "RelativePath": "api/Habit/leaderboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.HabitController",
+    "Method": "GetUserHabits",
+    "RelativePath": "api/Habit/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.NotificationController",
+    "Method": "CreateNotification",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notification",
+        "Type": "LifeOS.API.Models.Notification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.NotificationController",
+    "Method": "MarkAsRead",
+    "RelativePath": "api/Notification/{id}/read",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.NotificationController",
+    "Method": "MarkAllAsRead",
+    "RelativePath": "api/Notification/read-all/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.NotificationController",
+    "Method": "GetUnreadCount",
+    "RelativePath": "api/Notification/unread-count/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.NotificationController",
+    "Method": "GetUserNotifications",
+    "RelativePath": "api/Notification/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.TaskController",
+    "Method": "CreateTask",
+    "RelativePath": "api/Task",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "LifeOS.API.Models.TaskItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.TaskController",
+    "Method": "UpdateTask",
+    "RelativePath": "api/Task/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedTask",
+        "Type": "LifeOS.API.Models.TaskItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.TaskController",
+    "Method": "DeleteTask",
+    "RelativePath": "api/Task/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.TaskController",
+    "Method": "ToggleComplete",
+    "RelativePath": "api/Task/{id}/toggle-complete",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LifeOS.API.Controllers.TaskController",
+    "Method": "GetUserTasks",
+    "RelativePath": "api/Task/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
